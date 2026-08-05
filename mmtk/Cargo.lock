@@ -562,18 +562,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8"
 
 [[package]]
-name = "memoffset"
-version = "0.9.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a"
-dependencies = [
- "autocfg",
-]
-
-[[package]]
 name = "mmtk"
-version = "0.32.0"
-source = "git+https://github.com/mmtk/mmtk-core.git?rev=d8742a9b75b38c7cd1fd61fd87c7880fd4c5b1fe#d8742a9b75b38c7cd1fd61fd87c7880fd4c5b1fe"
+version = "0.33.0"
+source = "git+https://github.com/qinsoon/mmtk-core.git?rev=aa6a6605723f5aa92fc13e02da610c8f41a8cdad#aa6a6605723f5aa92fc13e02da610c8f41a8cdad"
 dependencies = [
  "atomic",
  "atomic-traits",
@@ -591,7 +582,6 @@ dependencies = [
  "lazy_static",
  "libc",
  "log",
- "memoffset",
  "mmtk-macros",
  "num-traits",
  "num_cpus",
@@ -608,8 +598,8 @@ dependencies = [
 
 [[package]]
 name = "mmtk-macros"
-version = "0.32.0"
-source = "git+https://github.com/mmtk/mmtk-core.git?rev=d8742a9b75b38c7cd1fd61fd87c7880fd4c5b1fe#d8742a9b75b38c7cd1fd61fd87c7880fd4c5b1fe"
+version = "0.33.0"
+source = "git+https://github.com/qinsoon/mmtk-core.git?rev=aa6a6605723f5aa92fc13e02da610c8f41a8cdad#aa6a6605723f5aa92fc13e02da610c8f41a8cdad"
 dependencies = [
  "proc-macro-error",
  "proc-macro2",

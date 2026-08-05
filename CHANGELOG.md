@@ -1,3 +1,12 @@
+0.33.0 (2026-08-05)
+===
+
+## What's Changed
+* Adapt to dynamic side metadata address by @qinsoon in https://github.com/mmtk/mmtk-jikesrvm/pull/192
+* Replace ProcessEdgesWork with Trace by @wks in https://github.com/mmtk/mmtk-jikesrvm/pull/193
+
+**Full Changelog**: https://github.com/mmtk/mmtk-jikesrvm/compare/v0.32.0...v0.33.0
+
 0.32.0 (2026-02-04)
 ===
 
